@@ -47,7 +47,7 @@ function suma(x, y) {
 function resta(x, y) {
   // Resta "x" de "y" y devuelve el valor
   // Tu código:
-  var resta = x -y;
+  var  resta = x -y;
   return resta;
   //return x - y;
 }
@@ -121,24 +121,25 @@ function mayorQueCincuenta(num) {
   // Devuelve "true" si el argumento de la función "num" es mayor que cincuenta
   // De lo contrario, devuelve "false"
   // Tu código:
-  if (num > 50) {
-    return true;
-  }else{
-    return false;
-  }
 
-  // return num > 50;
+
+  if (num > 50) return true; 
+  return false;
+
 }
+
+mayorQueCincuenta(40)
+
+
 
 function obtenerResto(x, y) {
   // Obten el resto de la división de "x" entre "y"
   // Tu código:
 
-var Resto = x % y;
-return Resto;
-
-  //return x % y;
+  return x % y;
 }
+
+obtenerResto(10, 5)
 
 
 function esPar(num) {
@@ -215,7 +216,7 @@ function agregarSimboloExclamacion(str) {
   // Ejemplo: "hello world" pasaría a ser "hello world!"
   // Tu código:
 
-  return str +'!';
+    return str +'!';
 
 }
 
@@ -224,8 +225,8 @@ function combinarNombres(nombre, apellido) {
   // Ejemplo: "Soy", "Henry" -> "Soy Henry"
   // Tu código:
   
-return nombre +''+ apellido;
-  
+
+  return nomre+''+apellido;
 
 }
 
@@ -235,22 +236,34 @@ function obtenerSaludo(nombre) {
   // "Martin" -> "Hola Martin!"
   // Tu código:
 
-   var saludo = 'Hola' + nombre + '!';
+   var saludo = 'Hola' + ' ' + nombre + '!';
    return saludo;
 
   //return 'Hola' + nombre + '!';
  
 }
+obtenerSaludo('Ariel');
 
 
-
-function obtenerAreaRectangulo(alto, ancho) {
+function obtenerAreaRectangulo(alto,ancho) {
   // Retornar el area de un cuadrado teniendo su altura y ancho
   // Tu código:
   
-  return alto * ancho;
+  var area = alto * ancho
+  return area;
 }
 
+
+function holaarielsosungenio(nombre){
+  
+  var genio = 'Hola' + ' '+ nombre  +' '+ 'sos un genio!';
+  return genio;
+
+
+}
+
+holaarielsosungenio(Areiel)
+holaarielsosungenio(Matias)
 
 // No modificar nada debajo de esta línea
 // --------------------------------

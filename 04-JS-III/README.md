@@ -70,6 +70,7 @@ Otros dos métodos de matriz incorporados muy útiles son `.push` y` .pop`. Esto
 
 `.push` agrega un elemento al final de la matriz, incrementando su longitud en 1. `.push` devuelve la nueva longitud.
 
+
 ```javascript
 const nombresEstudiantes = ['Martin', 'Antonio', 'Sara', 'Samuel'];
 
@@ -77,6 +78,8 @@ nombresEstudiantes.push('Patricia');
 
 console.log(nombresEstudiantes);  // ['Martin', 'Antonio', 'Sara', 'Samuel', 'Patricia']
 ```
+
+
 
 `.pop` elimina el último elemento de la matriz, disminuyendo la longitud en 1. `.pop` devuelve el elemento "reventado" (_popped_).
 
